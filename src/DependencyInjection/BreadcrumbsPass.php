@@ -1,6 +1,6 @@
 <?php
 
-namespace Ridersoft\BreadcrumbsBundle\DependencyInjection;
+namespace RomainPathe\BreadcrumbsBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
