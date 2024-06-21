@@ -1,0 +1,4 @@
+breadcrumb:
+  home:
+    label: Home
+    url: /

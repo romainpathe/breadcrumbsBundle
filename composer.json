@@ -1,0 +1,20 @@
+{
+  "name": "ridersoft/breadcrumbs-bundle",
+  "type": "symfony-bundle",
+  "version": "1.0.0",
+  "require": {
+    "php": ">=8.2",
+    "symfony/ux-twig-component": "^2.18",
+    "symfony/http-kernel": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ridersoft\\BreadcrumbsBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ridersoft\\BreadcrumbsBundle\\Tests\\": "tests/"
+    }
+  }
+}

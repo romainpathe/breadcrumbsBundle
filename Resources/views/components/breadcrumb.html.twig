@@ -1,0 +1,7 @@
+<li class="breadcrumb-item">
+    {% if item.url is not empty %}
+        <a href="{{ item.url }}" class="{% if isCurrent %} text-gray-900 {% else %} text-muted {% endif %} text-hover-primary">{{ item.label }}</a>
+    {% else %}
+        <span class="{% if isCurrent %} text-gray-900 {% else %} text-muted {% endif %}">{{ item.label }}</span>
+    {% endif %}
+</li>
