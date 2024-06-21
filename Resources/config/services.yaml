@@ -1,0 +1,3 @@
+services:
+  RomainPathe\BreadcrumbBundle\Breadcrumb:
+    autowire: true
