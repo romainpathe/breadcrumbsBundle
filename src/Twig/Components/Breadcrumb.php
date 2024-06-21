@@ -2,7 +2,6 @@
 
 namespace RomainPathe\BreadcrumbsBundle\Twig\Components;
 
-use AllowDynamicProperties;
 use Symfony\UX\TwigComponent\Attribute\AsTwigComponent;
 
 #[AsTwigComponent]

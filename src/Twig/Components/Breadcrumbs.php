@@ -9,4 +9,10 @@ use Symfony\UX\TwigComponent\Attribute\AsTwigComponent;
 final class Breadcrumbs
 {
     public array $items;
+
+
+    public function getItems(): array
+    {
+        return $this->items;
+    }
 }
