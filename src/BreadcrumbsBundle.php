@@ -2,7 +2,7 @@
 
 namespace RomainPathe\BreadcrumbsBundle;
 
-use RomainPathe\BreadcrumbsBundle\DependencyInjection\BreadcrumbsPass;
+use RomainPathe\BreadcrumbsBundle\DependencyInjection\Compiler\BreadcrumbsPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
