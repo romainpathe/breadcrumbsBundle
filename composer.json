@@ -1,5 +1,5 @@
 {
-  "name": "ridersoft/breadcrumbs-bundle",
+  "name": "romainpathe/breadcrumbs-bundle",
   "type": "symfony-bundle",
   "version": "1.0.0",
   "require": {
@@ -9,12 +9,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Ridersoft\\BreadcrumbsBundle\\": "src/"
+      "RomainPathe\\BreadcrumbsBundle\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Ridersoft\\BreadcrumbsBundle\\Tests\\": "tests/"
+      "RomainPathe\\BreadcrumbsBundle\\Tests\\": "tests/"
     }
   }
 }
