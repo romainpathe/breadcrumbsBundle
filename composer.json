@@ -5,7 +5,8 @@
   "require": {
     "php": ">=8.2",
     "symfony/ux-twig-component": "^2.18",
-    "symfony/http-kernel": "^7.1"
+    "symfony/http-kernel": "^7.1",
+    "symfony/config": "^7.1"
   },
   "autoload": {
     "psr-4": {
